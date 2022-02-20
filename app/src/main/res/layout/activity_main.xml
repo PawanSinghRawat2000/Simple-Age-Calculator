@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/TVagecal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age Calculator"
+        android:layout_marginTop="30dp"
+        android:textSize="28sp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        />
+    <Button
+        android:id="@+id/dobButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Enter DOB"
+        android:onClick="chooseDob"
+
+        />
+
+    <TextView
+        android:id="@+id/numDob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textStyle="bold"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Your Date of Birth" />
+
+    <TextView
+        android:id="@+id/TVage"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Your age is"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
